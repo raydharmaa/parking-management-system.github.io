@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.embed {
+    width: 65%;
+    margin: 25px auto 0;
+}
+
+@media (max-width: 768px) {
+    .embed {
+        width: 100%;
+    }
+}
+
+.main-title h1 {
+    display: flex;
+    width: 100%;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 1.65rem;
+}  
+
+.main-title p {
+    display: flex;
+    width: 100%;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 1.25rem;
+    transform: translate(-50%, 75%);
+    z-index: 1;
+}  
+
+.fullscreen-video-wrap video {
+    filter: brightness(35%);
+    width: 1500px;
+}
+
+.main-bg-pic {
+    background-image: url('img/girl-driving2.jpeg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(35%);
+}
+
+.main-bg-in {
+    background-image: url('img/girl-driving1.jpeg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(35%);
+}
+
+.main-bg h1 {
+    display: flex;
+    width: 100%;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 1.65rem;
+}  
+
+.main-bg p {
+    display: flex;
+    width: 100%;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 1.25rem;
+    transform: translate(-50%, 75%);
+    z-index: 1;
+}  
+
+/* Sign Up */
+
+.main {
+    width: 50%;
+    margin: 50px auto;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
